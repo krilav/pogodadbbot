@@ -1,4 +1,4 @@
-#bot.py
+#pogodadbbot.py
 
 import telebot
 import pyowm
