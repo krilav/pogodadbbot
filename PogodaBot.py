@@ -31,7 +31,7 @@ def send_echo(message):
 		speed = w.get_wind()['speed']
 		humidity = w.get_humidity()
 
-		answer = 'Температура в городе ' + message.text + ' сейчас ' + str( temp ) + ' градус цельсия' + '\n'
+		answer = 'Температура в городе ' + message.text + ' сейчас ' + str( temp ) + ' градус C' + '\n'
 		answer += 'Влажность воздуха ' + str( humidity ) + '%' + '\n' 
 		answer += 'Скорость ветра в городе ' + message.text + ' сейчас ' + str( speed ) + " м/с" + '\n'
 		answer += 'На небе ' + w.get_detailed_status() + '\n'
