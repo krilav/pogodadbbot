@@ -1,0 +1,6 @@
+
+
+worker: python PogodaBot.py
+
+
+
