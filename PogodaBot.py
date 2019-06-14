@@ -35,7 +35,8 @@ def send_echo(message):
 		answer += 'Влажность воздуха ' + str( humidity ) + '%' + '\n' 
 		answer += 'Скорость ветра в городе ' + message.text + ' сейчас ' + str( speed ) + " м/с" + '\n'
 		answer += 'На небе ' + w.get_detailed_status() + '\n'
-		
+		#answer += w + '\n'
+
 		bot.send_message(message.chat.id, answer)
 
 	except:
