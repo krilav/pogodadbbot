@@ -1,6 +1,6 @@
 
 
-worker: python PogodaBot.py
+worker: python PogodaBot.py $PORT
 
 
 
