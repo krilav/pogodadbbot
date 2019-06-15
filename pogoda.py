@@ -1,8 +1,5 @@
 #pogoda
 
-import pyowm
-import datetime
-import time
 
 owm = pyowm.OWM('7215c81c62b322b41e0aa0eb1843c5d4', language = 'ru') 
 
